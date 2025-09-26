@@ -20,7 +20,7 @@ export default function Nav() {
                 <Link
                     href="/"
                     className="font-extrabold tracking-wide text-accent-2">
-                    Fundamentals of Robotic Musicianship
+                    Workshop on Robotic Musicianship
                 </Link>
                 <nav className="flex flex-wrap gap-3">
                     {links.map((l) => {
