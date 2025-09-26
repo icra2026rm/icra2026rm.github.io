@@ -11,7 +11,7 @@ export default function HomePage() {
                     ICRA Workshop — Full Day
                 </p>
                 <h1 className="mt-1 text-3xl font-bold">
-                    Workshop on Robotic Musicianship
+                    Workshop on Fundamentals of Robotic Musicianship
                 </h1>
                 <p className="mt-3 leading-relaxed text-muted">
                     Design, control, and interaction principles behind robotic

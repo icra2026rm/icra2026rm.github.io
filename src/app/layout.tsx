@@ -4,9 +4,9 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-    title: "ICRA Workshop — Fundamentals of Robotic Musicianship",
+    title: "Workshop on Fundamentals of Robotic Musicianship - ICRA 2026",
     description:
-        "A full-day ICRA workshop on robotic musicianship: design, control, and human-robot musical interaction.",
+        "A full-day ICRA workshop on the fundamentals of robotic musicianship: design, control, and human-robot musical interaction.",
     icons: { icon: [
       {
         url: "/shimon_icon.png",
