@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Section from "@/components/Section";
 import Badge from "@/components/Badge";
+import hero from "@/../public/shimon.jpeg"; // static import
 
 export default function HomePage() {
     return (
@@ -10,7 +11,7 @@ export default function HomePage() {
                     ICRA Workshop — Full Day
                 </p>
                 <h1 className="mt-1 text-3xl font-bold">
-                    Fundamentals of Robotic Musicianship
+                    Workshop on Robotic Musicianship
                 </h1>
                 <p className="mt-3 leading-relaxed text-muted">
                     Design, control, and interaction principles behind robotic
@@ -22,7 +23,7 @@ export default function HomePage() {
                 <div className="mt-4 flex flex-wrap gap-2">
                     <Badge>Workshop</Badge>
                     <Badge>Full-day</Badge>
-                    <Badge>In-person (+ streaming)</Badge>
+                    <Badge>In-person</Badge>
                 </div>
                 <hr className="my-5 border-white/10" />
                 <p className="leading-relaxed text-muted">
@@ -36,8 +37,8 @@ export default function HomePage() {
             <Section>
                 <div className="overflow-hidden rounded-xl ring-1 ring-white/10">
                     <Image
-                        src="/shimon.jpeg"
-                        alt="Robotic musicianship collage"
+                        src={hero}
+                        alt="Shimon the robot"
                         width={1600}
                         height={1000}
                         className="h-auto w-full"
@@ -45,9 +46,7 @@ export default function HomePage() {
                     />
                 </div>
                 <p className="mt-3 text-sm text-muted">
-                    Demo: portable two-octave xylophone robot for
-                    call-and-response, imitation, and synchronized ensemble
-                    exercises.
+                    Shimon - the Marimba playing Robot
                 </p>
             </Section>
         </div>
