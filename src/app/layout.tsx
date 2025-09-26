@@ -7,7 +7,13 @@ export const metadata: Metadata = {
     title: "ICRA Workshop — Fundamentals of Robotic Musicianship",
     description:
         "A full-day ICRA workshop on robotic musicianship: design, control, and human-robot musical interaction.",
-    icons: { icon: "/favicon.ico" },
+    icons: { icon: [
+      {
+        url: "/shimon_icon.png",
+        sizes: 'any',
+        type: 'image/png',
+      }
+    ] },
 };
 
 export default function RootLayout({
