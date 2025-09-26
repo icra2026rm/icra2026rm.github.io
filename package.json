@@ -6,7 +6,7 @@
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
-        "preview": "npx serve dist -n",
+        "preview": "npx serve out -n",
         "lint": "eslint"
     },
     "dependencies": {
