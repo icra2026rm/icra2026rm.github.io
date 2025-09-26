@@ -1,7 +1,19 @@
+/** @type {import('next').NextConfig} */
+
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+const repo = "icra_rm_workshop_website";
+
 const nextConfig: NextConfig = {
-  /* config options here */
+    output: "export",
+    basePath: isProd ? `/${repo}` : "",
+    images: {
+        unoptimized: true,
+    },
+    assetPrefix: isProd ? `/${repo}/` : "",
+    trailingSlash: true,
+    typedRoutes: true,
 };
 
 export default nextConfig;
