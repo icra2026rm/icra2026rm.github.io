@@ -7,11 +7,11 @@ const repo = "icra_rm_workshop_website";
 
 const nextConfig: NextConfig = {
     output: "export",
-    basePath: isProd ? `/${repo}` : "",
+    distDir: "dist",
+    // basePath: isProd ? `/${repo}` : "",
     images: {
         unoptimized: true,
     },
-    assetPrefix: isProd ? `/${repo}/` : "",
     trailingSlash: true,
     typedRoutes: true,
 };

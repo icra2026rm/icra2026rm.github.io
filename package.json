@@ -4,8 +4,9 @@
     "private": true,
     "scripts": {
         "dev": "next dev",
-        "build": "next build && next export",
+        "build": "next build",
         "start": "next start",
+        "preview": "npx serve dist -n",
         "lint": "eslint"
     },
     "dependencies": {
