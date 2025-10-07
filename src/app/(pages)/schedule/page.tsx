@@ -1,32 +1,38 @@
 import Section from "@/components/Section";
 
 const rows: [string, string][] = [
-    ["9:00–9:15", "Opening welcome & introductions"],
-    ["9:15–9:45", "Intro to RM: philosophies & state of the art"],
-    ["9:45–10:00", "Coffee Break"],
-    ["10:00–11:00", "Keynote Speaker 1: Gil Weinberg"],
+    ["9:00 am", "Opening welcome & introductions"],
     [
-        "11:00–12:00",
-        "Designing & building robotic musicians (violin/guitar examples)",
+        "9:15 am",
+        "Intro to Robotic Musicianship: key philosophies & current state of Robotic Musicianship",
     ],
-    ["12:00–1:00", "Lunch"],
+    ["9:45 am", "Coffee Break"],
+    ["10:00 am", "Keynote Speaker 1: Gil Weinberg"],
     [
-        "1:00–2:00",
-        "Designing interactions & programming; demo with mini Shimon",
+        "11:00 am",
+        "Designing & building robotic musicians (Marimba/Guitar examples)",
     ],
-    ["2:00–3:00", "Accessibility: drumming prosthetic & Deaf/HoH case studies"],
-    ["3:00–4:00", "Multicultural applications (violin robot)"],
-    ["4:00–5:00", "Discussion: goals & future of robotic musicianship"],
+    ["12:00 pm", "Lunch"],
+    [
+        "1:00 pm",
+        "Designing interactions & programming; demo and interaction with mini Shimon",
+    ],
+    [
+        "2:00 pm",
+        "Accessibility: drumming prosthetic & Deaf/Hard of Hearing case studies",
+    ],
+    ["3:00 pm", "Multicultural applications - Violin robot"],
+    ["4:00 pm", "Discussion: goals & future of Robotic Musicianship"],
 ];
 
 export default function SchedulePage() {
     return (
         <Section>
-            <h1 className="text-3xl font-bold">Tentative Schedule</h1>
+            <h1 className="text-xl font-bold">Tentative Schedule</h1>
             <ul className="mt-4 space-y-2 text-muted">
                 {rows.map(([t, d]) => (
-                    <li key={t} className="flex gap-3">
-                        <div className="w-28 shrink-0 font-semibold text-ink">
+                    <li key={t} className="flex gap-8">
+                        <div className="w-20 shrink-0 font-semibold text-ink font-mono text-right">
                             {t}
                         </div>
                         <div>{d}</div>

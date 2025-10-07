@@ -5,13 +5,13 @@ import hero from "@/../public/shimon.jpeg"; // static import
 
 export default function HomePage() {
     return (
-        <div className="grid gap-6 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2 items-center justify-center">
             <Section>
                 <p className="uppercase text-xs tracking-[.2em] text-muted">
                     ICRA Workshop — Full Day
                 </p>
-                <h1 className="mt-1 text-3xl font-bold">
-                    Workshop on Fundamentals of Robotic Musicianship
+                <h1 className="mt-1 text-xl font-bold">
+                    Notes and Bots: Workshop on Robotic Musicianship
                 </h1>
                 <p className="mt-3 leading-relaxed text-muted">
                     Design, control, and interaction principles behind robotic
@@ -35,19 +35,23 @@ export default function HomePage() {
             </Section>
 
             <Section>
-                <div className="overflow-hidden rounded-xl ring-1 ring-white/10">
-                    <Image
-                        src={hero}
-                        alt="Shimon the robot"
-                        width={1600}
-                        height={1000}
-                        className="h-auto w-full"
-                        priority
-                    />
+                <div className="space-y-8">
+                    <div className="items-center justify-center">
+                        <div className="overflow-hidden rounded-xl ring-1 ring-white/10">
+                            <Image
+                                src={hero}
+                                alt="Shimon the robot"
+                                width={1600}
+                                height={1000}
+                                className="h-auto w-full"
+                                priority
+                            />
+                        </div>
+                        <p className="mt-3 text-sm text-muted">
+                            Shimon - the Marimba playing Robot
+                        </p>
+                    </div>
                 </div>
-                <p className="mt-3 text-sm text-muted">
-                    Shimon - the Marimba playing Robot
-                </p>
             </Section>
         </div>
     );

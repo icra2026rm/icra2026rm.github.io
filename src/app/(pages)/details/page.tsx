@@ -3,33 +3,47 @@ import Section from "@/components/Section";
 export default function DetailsPage() {
     return (
         <Section>
-            <article className="prose prose-invert prose-a:text-accent max-w-none">
-                <h1>Workshop Overview</h1>
-                <p>
-                    A full-day workshop covering mechanics, real-time control,
-                    AI, and human-robot musical interaction. Emphasis on
-                    practical, evidence-based design and cross-cultural
-                    applications, including accessibility.
+            <article className="prose prose-invert prose-a:text-accent max-w-none space-y-4">
+                <h1 className="text-xl font-semibold">Workshop Overview</h1>
+                <p className="text-justify indent-8">
+                    This full-day workshop introduces participants to the field
+                    of Robotic Musicianship (RM), where autonomous systems not
+                    only perform music but engage in human-robot interaction
+                    through musical collaboration. As robotics expands into
+                    creative domains, robotic musicianship represents a unique
+                    convergence of mechanical engineering, artificial
+                    intelligence, and human-computer interaction that addresses
+                    both technical challenges and artistic applications.
                 </p>
-                <h2>Format & Participation</h2>
-                <p>
-                    Talks, live demonstrations, and interactive sessions with a
-                    portable xylophone-playing robot. Remote streaming
-                    available; primary focus is in-person interaction due to
-                    physical demos.
+                <p className="text-justify indent-8">
+                    Participants will gain practical expertise in designing and
+                    programming robotic musicians through detailed case studies
+                    of diverse implementations, including guitar-playing,
+                    marimba-playing, violin-playing, drumming, dancing, and
+                    rapping robots. The workshop emphasizes evidence-based
+                    design principles derived from extensive development
+                    experience, covering critical considerations in actuator
+                    selection, real-time control systems, and multimodal
+                    interaction design. Special attention will be given to
+                    accessibility applications, demonstrating how robotic
+                    musicians can serve as assistive technologies for
+                    individuals with disabilities.
                 </p>
-                <h2>Diversity & Inclusion</h2>
-                <p>
-                    We highlight traditions beyond the Western canon and include
-                    accessibility-focused systems (e.g., prosthetic drumming,
-                    Deaf/HoH support). Co-design and authentic representation
-                    are emphasized.
-                </p>
-                <h2>Recruitment</h2>
-                <p>
-                    Outreach to RM, arts-robotics, and HRI communities across
-                    venues (NIME, ICMC, HRI, ICRA, AAAI), plus relevant mailing
-                    lists.
+                <p className="text-justify indent-8">
+                    The format includes hands-on demonstrations with a portable
+                    xylophone-playing robot, enabling participants to observe
+                    and experiment with various human-robot musical interaction
+                    paradigms, including call-and-response, synchronous
+                    performance, and adaptive accompaniment. The workshop also
+                    addresses cross-cultural applications, examining how robotic
+                    musicianship principles adapt to diverse musical traditions
+                    including Indian classical, Middle Eastern, and Korean
+                    performance styles. This workshop is designed for robotics
+                    researchers, human-computer interaction specialists, and
+                    engineers interested in exploring creative applications of
+                    autonomous systems while addressing fundamental challenges
+                    in real-time interaction and embodied artificial
+                    intelligence.
                 </p>
             </article>
         </Section>

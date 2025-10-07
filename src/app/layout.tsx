@@ -4,16 +4,18 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-    title: "Workshop on Fundamentals of Robotic Musicianship - ICRA 2026",
+    title: "Notes and bots: Workshop on Robotic Musicianship - ICRA 2026",
     description:
-        "A full-day ICRA workshop on the fundamentals of robotic musicianship: design, control, and human-robot musical interaction.",
-    icons: { icon: [
-      {
-        url: "/shimon_icon.png",
-        sizes: 'any',
-        type: 'image/png',
-      }
-    ] },
+        "Notes and bots: A full-day ICRA workshop on robotic musicianship: design, control, and human-robot musical interaction.",
+    icons: {
+        icon: [
+            {
+                url: "/shimon_icon.png",
+                sizes: "any",
+                type: "image/png",
+            },
+        ],
+    },
 };
 
 export default function RootLayout({

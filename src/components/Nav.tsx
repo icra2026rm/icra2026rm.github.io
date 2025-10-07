@@ -9,7 +9,7 @@ const links: { href: Route; label: string }[] = [
     { href: "/organizers", label: "Organizers" },
     { href: "/details", label: "Details" },
     { href: "/materials", label: "Materials" },
-    { href: "/contact", label: "Contact" },
+    // { href: "/contact", label: "Contact" },
 ] as const;
 
 export default function Nav() {
@@ -20,7 +20,7 @@ export default function Nav() {
                 <Link
                     href="/"
                     className="font-extrabold tracking-wide text-accent-2">
-                    Workshop on Fundamentals of Robotic Musicianship
+                    Notes and Bots: A workshop on Robotic Musicianship
                 </Link>
                 <nav className="flex flex-wrap gap-3">
                     {links.map((l) => {
