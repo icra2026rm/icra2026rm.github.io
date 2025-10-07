@@ -6,14 +6,14 @@ import hathaaniImg from "@/../public/hathaani_v2.jpg"
 
 export default function HomePage() {
     return (
-        <div className="grid gap-6 md:grid-cols-2 items-center justify-center">
+        <div className="grid gap-6 md:grid-cols-2 justify-center">
             <Section>
                 <article className="prose prose-invert prose-a:text-accent max-w-none space-y-4">
                     <p className="uppercase text-xs tracking-[.2em] text-muted">
-                        ICRA Workshop — Full Day
+                        ICRA 2026 Workshop - Full Day
                     </p>
                     <h1 className="text-xl font-semibold">
-                        Notes and Bots: Workshop on Robotic Musicianship
+                        Notes and Bots: A workshop on Robotic Musicianship
                     </h1>
                     <p className="text-justify indent-8">
                         This full-day workshop introduces participants to the
@@ -59,26 +59,11 @@ export default function HomePage() {
                         interaction and embodied artificial intelligence.
                     </p>
                 </article>
-
-                {/* <p className="mt-3 leading-relaxed text-muted">
-                    Design, control, and interaction principles behind robotic
-                    musicians—guitar, marimba, violin, drumming, dancing, and
-                    rapping robots. Explore accessibility applications,
-                    real-time control, and multimodal HRI through live demos and
-                    structured interactions.
-                </p> */}
                 <div className="mt-4 flex flex-wrap gap-2">
                     <Badge>Workshop</Badge>
                     <Badge>Full-day</Badge>
                     <Badge>In-person</Badge>
                 </div>
-                {/* <hr className="my-5 border-white/10" />
-                <p className="leading-relaxed text-muted">
-                    The workshop bridges robotics, AI, and music via
-                    evidence-based practices (actuators, real-time systems,
-                    interaction design) and cross-cultural case studies (e.g.,
-                    Indian, Middle Eastern, Korean traditions).
-                </p> */}
             </Section>
 
             <Section>
