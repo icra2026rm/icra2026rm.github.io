@@ -1,28 +1,34 @@
 import Section from "@/components/Section";
 
 const rows: [string, string][] = [
-    ["9:00 am", "Opening welcome & introductions"],
+    ["9:00 am", "Opening welcome & introductions + quick meet-and-greet with the robotic xylophone player (mini Shimon)"],
     [
         "9:15 am",
-        "Intro to Robotic Musicianship: key philosophies & current state of Robotic Musicianship",
+        "Intro to Robotic Musicianship: key philosophies & current state (with short live xylophone-robot demo)",
     ],
-    ["9:45 am", "Coffee Break"],
-    ["10:00 am", "Keynote Speaker 1: Gil Weinberg"],
+    ["9:45 am", "Coffee Break + informal networking around the robotic xylophone demo"],
+    ["10:00 am", "Keynote Speaker 1: Gil Weinberg (context + examples connected to hands-on xylophone robot interaction)"],
     [
         "11:00 am",
-        "Designing & building robotic musicians (Marimba/Guitar examples)",
+        "Designing & building robotic musicians (Marimba/Guitar examples + pointers back to the portable xylophone robot)",
     ],
-    ["12:00 pm", "Lunch"],
+    ["12:00 pm", "Lunch + open-table networking (robot available for casual interaction)"],
     [
         "1:00 pm",
-        "Designing interactions & programming; demo and interaction with mini Shimon",
+        "Designing interactions & programming; demo and interaction with mini Shimon (robotic xylophone player)",
     ],
     [
         "2:00 pm",
-        "Accessibility: drumming prosthetic & Deaf/Hard of Hearing case studies",
+        "Applications of Robotic Musicianship: accessibility, installations, and multicultural approaches (case studies + demo tie-ins)",
     ],
-    ["3:00 pm", "Multicultural applications - Violin robot"],
-    ["4:00 pm", "Discussion: goals & future of Robotic Musicianship"],
+    [
+        "3:00 pm",
+        "Hands-on interaction lab + attendee networking: structured play with the robotic xylophone player (mini Shimon)",
+    ],
+    [
+        "4:00 pm",
+        "Discussion + networking: goals & future of Robotic Musicianship (roundtable while the robot remains available)",
+    ],
 ];
 
 export default function SchedulePage() {
