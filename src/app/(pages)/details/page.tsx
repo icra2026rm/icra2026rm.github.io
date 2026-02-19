@@ -30,7 +30,7 @@ export default function DetailsPage() {
                         />
                     </div>
                     <figcaption className="mt-2 text-sm text-muted">
-                        Shimon / mini Shimon (temporary image).
+                        Shimon / (temporary image).
                     </figcaption>
                 </figure>
 
@@ -69,9 +69,6 @@ export default function DetailsPage() {
                     robot.
                 </p>
 
-                <p className="text-justify font-thin italic">
-                    More details will be added soon ...
-                </p>
             </article>
         </Section>
     );

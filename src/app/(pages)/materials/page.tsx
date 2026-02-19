@@ -18,7 +18,6 @@ export default function MaterialsPage() {
                 <li>Slides + speaker materials</li>
                 <li>Video clips from the robotic xylophone interaction sessions</li>
                 <li>Build docs (hardware + software) for the portable xylophone robot</li>
-                <li>Updated photo of Shimon / mini Shimon (to be replaced here)</li>
             </ul>
         </Section>
     );
