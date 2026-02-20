@@ -5,7 +5,6 @@ import type { Route } from "next";
 
 const links: { href: Route; label: string }[] = [
     { href: "/", label: "Home" },
-    { href: "/details", label: "Overview" },
     { href: "/schedule", label: "Schedule" },
     { href: "/organizers", label: "Organizers" },
     { href: "/materials", label: "Materials" },
@@ -29,11 +28,10 @@ export default function Nav() {
                             <Link
                                 key={l.href}
                                 href={l.href}
-                                className={`rounded-full px-3 py-1 text-sm ring-1 ring-white/10 hover:ring-white/20 ${
-                                    active
+                                className={`rounded-full px-3 py-1 text-sm ring-1 ring-white/10 hover:ring-white/20 ${active
                                         ? "bg-white/5 text-ink"
                                         : "text-muted"
-                                }`}>
+                                    }`}>
                                 {l.label}
                             </Link>
                         );
