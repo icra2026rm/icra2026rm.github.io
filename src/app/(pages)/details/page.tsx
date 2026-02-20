@@ -9,13 +9,12 @@ export default function DetailsPage() {
 
                 <h2 className="text-lg font-semibold mt-2">Workshop Goal</h2>
                 <p className="text-justify indent-8">
-                    Arts and robotics are being done increasingly together, and a major
-                    part of that intersection is robotic musicianship. This workshop
-                    aims to provide a venue for learning about the field and its design
-                    practices, and to discuss—throughout the day—with other attendees
-                    their goals for the field and the work being done. We will also
-                    bring a portable robotic xylophone player (mini Shimon) for hands-on
+                    Robotic musicianship is an interdisciplinary field that combines robotics, computer science, performance, music, and mechatronics. This workshop
+                    aims to provide an hands on introduction to the field and its design
+                    practices. It will also feature discussion throughout the day with attendees about the future direction of the field. We also
+                    bring a portable robotic xylophone player (a new mini Shimon) for hands-on
                     interaction, musical play, and live demonstrations.
+
                 </p>
 
                 <figure className="not-prose mt-4">
