@@ -20,10 +20,10 @@ export default function HomePage() {
                     <h2 className="text-lg font-semibold mt-2">Workshop Goal</h2>
 
                     <p className="text-justify indent-8">
-                        Robotic musicianship is an interdisciplinary field that combines
+                        Robotic Musicianship is an interdisciplinary field that combines
                         robotics, computer science, performance, music, and mechatronics.
                         This full-day workshop introduces participants to Robotic
-                        Musicianship (RM), where autonomous systems not only perform
+                        Musicianship, where autonomous systems not only perform
                         music but also enable rich human-robot interaction through
                         musical collaboration—anchored by hands-on time with a portable
                         robotic xylophone player (a new mini Shimon).
@@ -98,7 +98,7 @@ export default function HomePage() {
                         <div className="overflow-hidden rounded-xl ring-1 ring-white/10">
                             <Image
                                 src={shimonSingsImg}
-                                alt="Shimon / mini Shimon (robotic musician)"
+                                alt="Shimon (robotic musician)"
                                 width={1600}
                                 height={1000}
                                 className="h-auto w-full"
@@ -106,7 +106,7 @@ export default function HomePage() {
                             />
                         </div>
                         <p className="mt-3 text-sm text-muted">
-                            Shimon / mini Shimon (temporary image) — portable robotic xylophone player for hands-on interaction.
+                            Shimon - Robot Marimbist and Vocalist
                         </p>
                     </div>
 

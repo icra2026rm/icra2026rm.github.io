@@ -7,7 +7,7 @@ const rows: [string, string][] = [
         "Intro to Robotic Musicianship: key philosophies & current state (with short live xylophone-robot demo)",
     ],
     ["9:45 am", "Coffee Break + informal networking around the robotic xylophone demo"],
-    ["10:00 am", "Keynote Speaker 1: Gil Weinberg (context + examples connected to hands-on xylophone robot interaction)"],
+    ["10:00 am", "Keynote Speaker: Gil Weinberg (context + examples connected to hands-on xylophone robot interaction)"],
     [
         "11:00 am",
         "Designing & building robotic musicians (Marimba/Guitar examples + pointers back to the portable xylophone robot)",
