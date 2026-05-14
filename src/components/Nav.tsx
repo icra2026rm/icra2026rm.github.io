@@ -42,9 +42,9 @@ export default function Nav() {
                         href="https://forms.gle/NrgqTV6JwAnjRHAg6"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="Optional registration to help with numbers"
+                        aria-label="Registration to help with numbers"
                         className="rounded-full bg-accent px-3 py-1 text-sm font-semibold text-bg hover:no-underline">
-                        Optional registration
+                        Registration
                     </a>
                 </div>
             </div>

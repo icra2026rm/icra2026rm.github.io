@@ -9,7 +9,7 @@ const rows: [string, string][] = [
     ],
     [
         "10:30 am-12:00 pm",
-        "Workshop subgroups",
+        "Hands-on Workshop Subgroups",
     ],
     ["12:00-1:00 pm", "Lunch"],
     ["1:00-2:00 pm", "Robotic Musicianship Panel"],
