@@ -1,34 +1,20 @@
 import Section from "@/components/Section";
 
 const rows: [string, string][] = [
-    ["9:00 am", "Opening welcome & introductions + quick meet-and-greet with the robotic xylophone player (mini Shimon)"],
+    ["8:45-9:00 am", "Introduction and welcome"],
+    ["9:00-10:00 am", "Gil Weinberg Keynote"],
     [
-        "9:15 am",
-        "Intro to Robotic Musicianship: key philosophies & current state (with short live xylophone-robot demo)",
-    ],
-    ["9:45 am", "Coffee Break + informal networking around the robotic xylophone demo"],
-    ["10:00 am", "Keynote Speaker: Gil Weinberg (context + examples connected to hands-on xylophone robot interaction)"],
-    [
-        "11:00 am",
-        "Designing & building robotic musicians (Marimba/Guitar examples + pointers back to the portable xylophone robot)",
-    ],
-    ["12:00 pm", "Lunch + open-table networking (robot available for casual interaction)"],
-    [
-        "1:00 pm",
-        "Designing interactions & programming; demo and interaction with mini Shimon (robotic xylophone player)",
+        "10:00-10:30 am",
+        "Introduction to Robotic Musicianship",
     ],
     [
-        "2:00 pm",
-        "Applications of Robotic Musicianship: accessibility, installations, and multicultural approaches (case studies + demo tie-ins)",
+        "10:30 am-12:00 pm",
+        "Workshop subgroups",
     ],
-    [
-        "3:00 pm",
-        "Hands-on interaction lab + attendee networking: structured play with the robotic xylophone player (mini Shimon)",
-    ],
-    [
-        "4:00 pm",
-        "Discussion + networking: goals & future of Robotic Musicianship (roundtable while the robot remains available)",
-    ],
+    ["12:00-1:00 pm", "Lunch"],
+    ["1:00-2:00 pm", "Robotic Musicianship Panel"],
+    ["2:00-3:00 pm", "Interact with Robotic Musicians"],
+    ["3:00-4:00 pm", "Discussion and Networking"],
 ];
 
 export default function SchedulePage() {
@@ -37,8 +23,8 @@ export default function SchedulePage() {
             <h1 className="text-xl font-bold">Tentative Schedule</h1>
             <ul className="mt-4 space-y-2 text-muted">
                 {rows.map(([t, d]) => (
-                    <li key={t} className="flex gap-8">
-                        <div className="w-20 shrink-0 font-semibold text-ink font-mono text-right">
+                    <li key={t} className="grid gap-1 sm:grid-cols-[10rem_1fr] sm:gap-8">
+                        <div className="font-mono font-semibold text-ink sm:text-right">
                             {t}
                         </div>
                         <div>{d}</div>

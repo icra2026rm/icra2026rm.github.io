@@ -21,22 +21,32 @@ export default function Nav() {
                     className="font-extrabold tracking-wide text-accent-2">
                     Notes and Bots: A workshop on Robotic Musicianship
                 </Link>
-                <nav className="flex flex-wrap gap-3">
-                    {links.map((l) => {
-                        const active = path === l.href;
-                        return (
-                            <Link
-                                key={l.href}
-                                href={l.href}
-                                className={`rounded-full px-3 py-1 text-sm ring-1 ring-white/10 hover:ring-white/20 ${active
-                                        ? "bg-white/5 text-ink"
-                                        : "text-muted"
-                                    }`}>
-                                {l.label}
-                            </Link>
-                        );
-                    })}
-                </nav>
+                <div className="flex flex-wrap items-center gap-3">
+                    <nav className="flex flex-wrap gap-3">
+                        {links.map((l) => {
+                            const active = path === l.href;
+                            return (
+                                <Link
+                                    key={l.href}
+                                    href={l.href}
+                                    className={`rounded-full px-3 py-1 text-sm ring-1 ring-white/10 hover:ring-white/20 ${active
+                                            ? "bg-white/5 text-ink"
+                                            : "text-muted"
+                                        }`}>
+                                    {l.label}
+                                </Link>
+                            );
+                        })}
+                    </nav>
+                    <a
+                        href="https://forms.gle/NrgqTV6JwAnjRHAg6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Optional registration to help with numbers"
+                        className="rounded-full bg-accent px-3 py-1 text-sm font-semibold text-bg hover:no-underline">
+                        Optional registration
+                    </a>
+                </div>
             </div>
         </header>
     );
