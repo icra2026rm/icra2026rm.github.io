@@ -7,14 +7,15 @@ const rows: [string, string][] = [
         "10:00-10:30 am",
         "Introduction to Robotic Musicianship",
     ],
+    ["10:30-11:00 am", "Morning coffee break"],
     [
-        "10:30 am-12:00 pm",
+        "11:00 am-12:30 pm",
         "Hands-on Workshop Subgroups",
     ],
-    ["12:00-1:00 pm", "Lunch"],
-    ["1:00-2:00 pm", "Robotic Musicianship Panel"],
-    ["2:00-3:00 pm", "Interact with Robotic Musicians"],
-    ["3:00-4:00 pm", "Discussion and Networking"],
+    ["12:30-1:30 pm", "Lunch"],
+    ["1:30-2:30 pm", "Robotic Musicianship Panel"],
+    ["2:30-3:30 pm", "Interact with Robotic Musicians"],
+    ["3:30-4:30 pm", "Discussion and Networking"],
 ];
 
 export default function SchedulePage() {
